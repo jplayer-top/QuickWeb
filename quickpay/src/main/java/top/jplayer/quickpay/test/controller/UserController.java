@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequestWrapper;
-
 import top.jplayer.common.dto.BaseResult;
 import top.jplayer.quickpay.test.service.IUserService;
 
@@ -32,17 +30,7 @@ public class UserController {
     }
 
     @GetMapping("set")
-    public BaseResult setUser(HttpServletRequestWrapper requestWrapper) {
-        return BaseResult.ok(requestWrapper);
-    }
-
-    @GetMapping("set1")
-    public BaseResult setUser1() {
-        createException();
+    public BaseResult setUser() {
         return BaseResult.ok();
-    }
-
-    private void createException() {
-        int i = 5 / 0;
     }
 }

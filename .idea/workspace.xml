@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52508cad-29f0-4519-bf56-0be29c7325f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/logs/quickPay-debug-log-2019-10-08-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/logs/quickPay-debug-log-2019-10-10-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/logs/quickPay-error-log-2019-10-08-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/logs/quickPay-error-log-2019-10-10-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/logs/quickPay-info-log-2019-10-08-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/logs/quickPay-info-log-2019-10-10-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/quickpay/target/" />
@@ -26,7 +33,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="68" />
+          <entry key="JAVA" value="69" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="54" />
@@ -36,8 +43,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="875" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="JAVA" value="877" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="Properties" value="7" />
           <entry key="XML" value="309" />
           <entry key="YAML" value="89" />
@@ -49,10 +56,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +111,6 @@
         <option value="$PROJECT_DIR$/common/src/main/java/top/jplayer/common/util/ResponseWrapper.java" />
         <option value="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/exception/CustomExceptionHandlerAdvice.java" />
         <option value="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/exception/CustomErrorController.java" />
-        <option value="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java" />
         <option value="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/interceptor/LogInterceptor.java" />
         <option value="$PROJECT_DIR$/common/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/api/src/main/resources/application.yml" />
@@ -108,6 +121,7 @@
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/quickpay/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -171,6 +185,41 @@
               <item name="Quick" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quick" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Quick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick" type="462c0819:PsiDirectoryNode" />
+              <item name="quickpay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick" type="462c0819:PsiDirectoryNode" />
+              <item name="quickpay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick" type="462c0819:PsiDirectoryNode" />
+              <item name="quickpay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick" type="462c0819:PsiDirectoryNode" />
+              <item name="quickpay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick" type="462c0819:PsiDirectoryNode" />
+              <item name="quickpay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="quickpay" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,7 +233,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570697132930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570699243700" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -227,7 +276,7 @@
     </option>
     <option name="contentProportion" value="0.21103896" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="Spring Boot.QuickpayApplication">
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.jplayer.api.ApiApplication" />
@@ -285,17 +334,26 @@
       <updated>1570516001693</updated>
       <workItem from="1570516003178" duration="13426000" />
       <workItem from="1570583794131" duration="17652000" />
-      <workItem from="1570686369479" duration="9363000" />
+      <workItem from="1570686369479" duration="10841000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1570697157902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570697157902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40441000" />
+    <option name="totallyTimeSpent" value="41919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -305,7 +363,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27497315" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27497315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,13 +375,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.36802575" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.3469388" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.27771854" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.27771854" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -335,6 +393,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,17 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.8.RELEASE/spring-boot-maven-plugin-2.1.8.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -627,6 +678,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickpay/src/main/java/top/jplayer/quickpay/test/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
