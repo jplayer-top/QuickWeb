@@ -1,0 +1,22 @@
+2019-10-10 14:07:45.784 INFO  top.jplayer.quickpay.QuickpayApplication - Starting QuickpayApplication on SKY-2019082tygh with PID 14424 (D:\work_code\Quick\quickpay\target\classes started by Administrator in D:\work_code\Quick)
+2019-10-10 14:07:45.785 INFO  top.jplayer.quickpay.QuickpayApplication - No active profile set, falling back to default profiles: default
+2019-10-10 14:07:46.222 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-10 14:07:46.224 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 14:07:46.255 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-10-10 14:07:46.476 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$588c1299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 14:07:46.665 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8833 (http)
+2019-10-10 14:07:46.678 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8833"]
+2019-10-10 14:07:46.695 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-10 14:07:46.695 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-10 14:07:46.778 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2019-10-10 14:07:46.778 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 968 ms
+2019-10-10 14:07:46.817 INFO  top.jplayer.quickpay.filter.LogFilter - init......
+2019-10-10 14:07:46.934 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-10 14:07:47.075 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-10 14:07:47.170 WARN  com.baomidou.mybatisplus.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: top.jplayer.quickpay.test.entity.User.
+2019-10-10 14:07:47.358 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-10 14:07:47.757 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-10-10 14:07:47.805 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8833"]
+2019-10-10 14:07:47.821 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8833 (http) with context path '/api'
+2019-10-10 14:07:47.823 INFO  top.jplayer.quickpay.QuickpayApplication - Started QuickpayApplication in 2.486 seconds (JVM running for 3.737)
+2019-10-10 14:07:47.824 ERROR top.jplayer.quickpay.QuickpayApplication - -----------

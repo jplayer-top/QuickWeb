@@ -1,0 +1,21 @@
+2019-10-08 10:50:36.781  INFO 3576 --- [main] t.jplayer.quickpay.QuickpayApplication   : Starting QuickpayApplication on SKY-2019082tygh with PID 3576 (D:\work_code\quickpay\target\classes started by Administrator in D:\work_code\quickpay)
+2019-10-08 10:50:36.781  INFO 3576 --- [main] t.jplayer.quickpay.QuickpayApplication   : No active profile set, falling back to default profiles: default
+2019-10-08 10:50:37.288  INFO 3576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 10:50:37.290  INFO 3576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 10:50:37.313  INFO 3576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-08 10:50:37.512  INFO 3576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fc2107e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 10:50:37.673  INFO 3576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8833 (http)
+2019-10-08 10:50:37.686  INFO 3576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-08 10:50:37.686  INFO 3576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-08 10:50:37.748  INFO 3576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-08 10:50:37.748  INFO 3576 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 922 ms
+2019-10-08 10:50:37.855  INFO 3576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-08 10:50:37.929  INFO 3576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-08 10:50:38.062  WARN 3576 --- [main] c.b.m.core.metadata.TableInfoHelper      : Warn: Could not find @TableId in Class: top.jplayer.quickpay.test.entity.User.
+2019-10-08 10:50:38.220  INFO 3576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 10:50:38.542  INFO 3576 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-10-08 10:50:38.589  INFO 3576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8833 (http) with context path ''
+2019-10-08 10:50:38.591  INFO 3576 --- [main] t.jplayer.quickpay.QuickpayApplication   : Started QuickpayApplication in 2.127 seconds (JVM running for 2.952)
+2019-10-08 10:51:28.314  INFO 3576 --- [http-nio-8833-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 10:51:28.314  INFO 3576 --- [http-nio-8833-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-08 10:51:28.320  INFO 3576 --- [http-nio-8833-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms

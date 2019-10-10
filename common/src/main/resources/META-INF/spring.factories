@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+top.jplayer.common.exception.ExceptionHandlerAdvice
+
